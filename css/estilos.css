@@ -69,6 +69,12 @@ div.content-card.red {
 div.content-card.red > div.hov-bck {
     background-color: #ffeded;
 }
+div.content-card.green {
+    border-left-color: #ff9a9a;
+}
+div.content-card.green > div.hov-bck {
+    background-color: #ffeded;
+}
 
 div#cabecera {
     margin: 0;

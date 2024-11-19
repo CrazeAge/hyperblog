@@ -53,12 +53,21 @@ div.content-card > div.hov-bck {
 div.content-card:hover > div.hov-bck {
     width: 100%
 }
+div.content-card + div.content-card {
+    margin-top: 10px;
+}
 
 div.content-card.violet {
     border-left-color: #c19aff;
 }
 div.content-card.violet > div.hov-bck {
     background-color: #f4edff;
+}
+div.content-card.red {
+    border-left-color: #ff9a9a;
+}
+div.content-card.red > div.hov-bck {
+    background-color: #ffeded;
 }
 
 div#cabecera {

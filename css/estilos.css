@@ -1,6 +1,12 @@
+html, body {
+    height: 100%;
+}
+
 body {
     text-align: center;
     font-family: Courier;
+    margin: 0px;
+    background: #999;
 }
 
 #container {
@@ -15,6 +21,8 @@ body {
 
 div#post {
     padding: 1em;
+    background: white;
+    /* min-height: 100%; */
 }
 
 div.content-card {

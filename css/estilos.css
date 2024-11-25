@@ -103,8 +103,8 @@ div#cabecera > div:last-child {
 
 div#footer {
     display: flex;
-    /* align-items: baseline; */
-    /* column-gap: 40px; */
+    align-items: baseline;
+    column-gap: 40px;
     flex-wrap: wrap;
     margin: 0;
     color: white;
@@ -112,4 +112,7 @@ div#footer {
     padding: 10px 20px;
     font-size: 17px;
     box-shadow: 0px -2px 5px 0px rgba(170, 170, 170, 1);
+}
+div#footer > small {
+    color: limegreen;
 }
